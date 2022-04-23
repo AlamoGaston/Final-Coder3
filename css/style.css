@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+/* <!------------------- Header -------------------> */
+
+#menu a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #762bb8;
+}
+
+#menu button {
+  font-size: 20px;
+  font-weight: bold;
+  color: 5000ca;
+}
+
+/*--------------------- Slider de imagenes -----------*/
+
+.carousel-inner {
+  max-height: 60rem;
+}
+
+/* <!------------------- Ofertas -------------------> */
+
+.ofertas button {
+  margin-top: 1rem;
+  background: black;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.ofertas button:hover {
+  background: #762bb8;
+  color: whitesmoke;
+}
+
+/* <!------------------- Productos -------------------> */
+
+.sect-pro {
+  display: grid;
+  grid-area: main;
+  min-height: 100vh;
+  background: linear-gradient(to right, rgb(18, 163, 163), rgb(19, 109, 109));
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.Prod {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+  grid-gap: 3rem;
+  min-height: 100vh;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+article img {
+  order: -1;
+  align-self: center;
+}
+
+article button {
+  margin-top: auto;
+  background: black;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+article button:hover {
+  background: blue;
+  color: black;
+}
+
+.img-pro {
+  border: 5px solid gray;
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  margin: 80px;
+}
+
+/* <!---------------- Zona de envios --------------> */
+
+.zona {
+  width: 300px;
+  height: 300px;
+}
+
+.ola-1 {
+  position: relative;
+  top: 50px;
+}
+
+/*------------------ Mapa local ------------------- */
+.mapa {
+  width: 100%;
+  height: 500px;
+}
+
+#local {
+  background: #762bb8;
+  padding-bottom: 300px;
+  display: flex;
+  justify-content: center;
+  max-height: 600px;
+}
+
+.wrapper {
+  width: 50%;
+  margin-left: 100px;
+  padding-top: 150px;
+}
+
+/* .ola-2{
+    position: relative;
+    top: -205px;
+} */
+
+/* ---------------- Formulario -------------------- */
+
+#bg-contactos {
+  position: relative;
+  top: -150px;
+}
+
+#seccion-contacto {
+  min-height: 600px;
+  min-width: auto;
+  position: relative;
+}
+
+#contenedor-formulario {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 300px;
+  background: wheat;
+  border-radius: 5px;
+}
+
+/* ---------------- Comprar ----------------------- */
+.intro-section {
+  background: linear-gradient(to right, rgb(18, 163, 163), rgb(19, 109, 109));
+  min-height: 100vh;
+  grid-area: main;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/* ---------------- Footer ------------------------ */
+footer {
+  background: #762bb8;
+  min-height: 100px;
+}
+
+footer p {
+  color: antiquewhite;
+  text-align: center;
+}
+
+#iconos i {
+  font-size: 30px;
+  padding: 0 8px;
+}
+
+.what-logo {
+  position: fixed;
+  right: 40px;
+  bottom: 3px;
+  float: left;
+  margin-bottom: 30px;
+  z-index: 40;
+  perspective: 200px;
+  animation: what-logo 2s linear infinite;
+}
+
+@keyframes what-logo {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: rotateX(0deg) rotateY(180deg);
+  }
+  100% {
+    transform: rotateX(180deg) rotateY(180deg);
+  }
+}
+
+/*----------------- Medias ------------------------*/
+
+@media (max-width: 1200px) {
+  #local {
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+
+  .wrapper {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 768px) {
+  #intro {
+    width: 90% !important;
+    margin: auto;
+  }
+
+  .ofertas {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+
+  #servicios-fila {
+    width: 100% !important;
+  }
+}
+.sect-pro {
+  display: grid;
+  grid-area: main;
+  min-height: 100vh;
+  background: linear-gradient(to right, rgb(18, 163, 163), rgb(19, 109, 109));
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.Prod {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+  grid-gap: 3rem;
+  min-height: 100vh;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+article img {
+  order: -1;
+  align-self: center;
+}
+
+article button {
+  margin-top: auto;
+  background: black;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+article button:hover {
+  background: blue;
+  color: black;
+}
+
+.img-pro {
+  border: 5px solid gray;
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  margin: 80px;
+}
+
+/*# sourceMappingURL=style.css.map */
