@@ -87,6 +87,37 @@ body {
   margin: 80px;
 }
 
+/* ---------------- Formulario -------------------- */
+#bg-contactos {
+  position: relative;
+  top: -150px;
+}
+
+#seccion-contacto {
+  min-height: 600px;
+  min-width: auto;
+  position: relative;
+}
+
+#contenedor-formulario {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 300px;
+  background: wheat;
+  border-radius: 5px;
+}
+
+/* ---------------- Comprar ----------------------- */
+.intro-section {
+  background: linear-gradient(to right, rgb(18, 163, 163), rgb(19, 109, 109));
+  min-height: 100vh;
+  grid-area: main;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 /* <!---------------- Zona de envios --------------> */
 .zona {
   width: 300px;
