@@ -1,0 +1,39 @@
+/* ---------------- Footer ------------------------ */
+footer {
+    background: $primary-color;
+    min-height: 100px;
+  
+    footer p {
+      color: antiquewhite;
+      text-align: center;
+    }
+  
+    #iconos i {
+      font-size: 30px;
+      padding: 0 8px;
+    }
+  
+    .what-logo {
+      position: fixed;
+      right: 40px;
+      bottom: 3px;
+      float: left;
+      margin-bottom: 30px;
+      z-index: 40;
+      perspective: 200px;
+      animation: what-logo 2s linear infinite;
+    }
+    
+    
+@keyframes what-logo {
+    0% {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+    50% {
+      transform: rotateX(0deg) rotateY(180deg);
+    }
+    100% {
+      transform: rotateX(180deg) rotateY(180deg);
+    }
+  } 
+}

@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch scss/style.scss css/style.css"
+    "compile:sass" : "sass --watch scss/style.scss css/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlamoGaston/Bootstrap.git"
+    "url": "git+https://github.com/AlamoGaston/Final-Coder3.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlamoGaston/Bootstrap/issues"
+    "url": "https://github.com/AlamoGaston/Final-Coder3/issues"
   },
-  "homepage": "https://github.com/AlamoGaston/Bootstrap#readme"
+  "homepage": "https://github.com/AlamoGaston/Final-Coder3#readme"
 }

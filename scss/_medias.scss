@@ -1,0 +1,36 @@
+/*----------------- Medias ------------------------*/
+
+@media (max-width: 1200px) {
+    #local {
+      flex-wrap: wrap;
+      padding-top: 30px;
+    }
+  
+    .wrapper {
+      width: 90%;
+      margin: auto;
+      padding-top: 50px;
+    }
+  }
+  @media (max-width: 768px) {
+    #intro {
+      width: 90% !important;
+      margin: auto;
+    }
+  
+    .ofertas {
+      width: 100% !important;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .icono-wrap {
+      flex-wrap: wrap !important;
+      justify-content: center !important;
+    }
+  
+    #servicios-fila {
+      width: 100% !important;
+    }
+  }
