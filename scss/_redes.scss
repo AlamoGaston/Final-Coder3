@@ -1,0 +1,39 @@
+.red-1{
+    @include redes(rgb(92, 92, 203));
+}
+.red-2{
+    @include redes(rgb(114, 34, 114));
+}
+.red-3{
+    @include redes(green);
+}
+
+.web{
+    @include flex(column);
+    width: 75%;
+    margin: 0 auto;
+
+    &__text--1{
+        font-weight: map-get($font-weights,bold);
+
+        &:hover{
+            color: rgb(255, 0, 21);
+        }
+    }
+
+    &__text--2{
+        @extend .web__text--1;
+
+        &:hover{
+            color: rgb(159, 232, 13);
+        }
+    }
+
+    &__text--3{
+        @extend .web__text--1;
+
+        &:hover{
+            color: rgb(6, 9, 1);
+        }
+    }
+}

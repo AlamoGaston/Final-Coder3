@@ -1,10 +1,9 @@
 {
   "name": "pagina-bootstrap",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass" : "sass --watch scss/style.scss css/style.css"
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/AlamoGaston/Final-Coder3/issues"
   },
-  "homepage": "https://github.com/AlamoGaston/Final-Coder3#readme"
+  "homepage": "https://github.com/AlamoGaston/Final-Coder3#readme",
+  "description": ""
 }

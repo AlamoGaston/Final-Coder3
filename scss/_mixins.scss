@@ -1,0 +1,15 @@
+@mixin redes($color) {
+    background-color: $color;
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    padding: 10px;
+    color: $text-color 
+}
+
+@mixin flex($direc) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direc;
+}

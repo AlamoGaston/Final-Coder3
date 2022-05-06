@@ -225,5 +225,52 @@ footer .what-logo {
     width: 100% !important;
   }
 }
+.red-1 {
+  background-color: rgb(92, 92, 203);
+  width: 200px;
+  height: 200px;
+  margin-top: 5px;
+  padding: 10px;
+  color: rgb(185, 183, 183);
+}
+
+.red-2 {
+  background-color: rgb(114, 34, 114);
+  width: 200px;
+  height: 200px;
+  margin-top: 5px;
+  padding: 10px;
+  color: rgb(185, 183, 183);
+}
+
+.red-3 {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  margin-top: 5px;
+  padding: 10px;
+  color: rgb(185, 183, 183);
+}
+
+.web {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 75%;
+  margin: 0 auto;
+}
+.web__text--1, .web__text--3, .web__text--2 {
+  font-weight: 700;
+}
+.web__text--1:hover, .web__text--3:hover, .web__text--2:hover {
+  color: rgb(255, 0, 21);
+}
+.web__text--2:hover {
+  color: rgb(159, 232, 13);
+}
+.web__text--3:hover {
+  color: rgb(6, 9, 1);
+}
 
 /*# sourceMappingURL=style.css.map */
