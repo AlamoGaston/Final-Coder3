@@ -1,3 +1,7 @@
+.redes{
+    background-color: aqua
+}
+
 .red-1{
     @include redes(rgb(92, 92, 203));
 }
@@ -9,6 +13,7 @@
 }
 
 .web{
+    background-color: aqua
     @include flex(column);
     width: 75%;
     margin: 0 auto;
